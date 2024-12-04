@@ -6,19 +6,17 @@
 /*   By: bebuber <bebuber@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 14:29:50 by bebuber           #+#    #+#             */
-/*   Updated: 2024/12/04 23:18:18 by bebuber          ###   ########.fr       */
+/*   Updated: 2024/12/04 23:32:02 by bebuber          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ScavTrap.hpp"
+#include "FragTrap.hpp"
 
 int main() {
 
-    ScavTrap scav("Scavvy");
-    scav.attack("target");
-    scav.takeDamage(30);
-    scav.beRepaired(20);
-    scav.guardGate();
-	
-	return 0;
+    FragTrap frag("Frog");
+
+    frag.highFivesGuys();
+
+    return 0;
 }

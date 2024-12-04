@@ -6,7 +6,7 @@
 /*   By: bebuber <bebuber@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 14:29:48 by bebuber           #+#    #+#             */
-/*   Updated: 2024/12/04 20:57:25 by bebuber          ###   ########.fr       */
+/*   Updated: 2024/12/04 21:42:22 by bebuber          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,11 @@ class ClapTrap
 {
 	private:
 		std::string name;
-		int hitPoint = 10;
-		int energyPoints = 10;
-		int attackDamage = 2;
+		int hitPoint;
+		int energyPoints;
+		int attackDamage;
 	public:
 	// Orthodox Canonical Form
-		ClapTrap();
 		ClapTrap(std::string name);
 		ClapTrap(const ClapTrap& other);
 		ClapTrap& operator=(const ClapTrap& other);

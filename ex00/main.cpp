@@ -6,7 +6,7 @@
 /*   By: bebuber <bebuber@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 14:29:50 by bebuber           #+#    #+#             */
-/*   Updated: 2024/12/04 21:00:17 by bebuber          ###   ########.fr       */
+/*   Updated: 2024/12/04 21:44:25 by bebuber          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,5 @@ int main() {
 	std::cout << b.getName() << " has got;\n" << b.getHitPoints() << " ->Hit points\n" \
 	<< b.getEnergyPoints() << " ->Energy points\n" << b.getAttackDamage() << " ->Attack damage\n" << std::endl;
 
-	
 	return 0;
 }
